@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-// import Login from './components/Login'; // Komentar ini jika ingin mengganti dengan SignIn
-import SignIn from './components/SignIn';
+import Account from './components/Account';
 
 function App() {
   return (
     <div className="App">
-      <SignIn />
+      <Account />
     </div>
   );
 }
