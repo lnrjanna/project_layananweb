@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import Account from './components/Account';
+import Notification from './components/Notification';
 
 function App() {
   return (
     <div className="App">
-      <Account />
+      {/* <Account /> */}
+      <Notification />
     </div>
   );
 }
